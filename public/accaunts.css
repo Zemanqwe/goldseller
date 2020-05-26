@@ -1,0 +1,129 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+	background-color: FFFFFF;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #EAEAEA;
+}
+.Logo{
+	width: 300px;
+}
+a{
+	text-decoration: none;
+}
+.Help{
+	float: right;
+	margin-top: -70px;
+	margin-right: 10px;
+}
+.Helptxt{
+	color: #000000;
+	font-family: Arial;
+	font-size: 17px;
+}
+.Banner{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.Banner_img{
+	width: 100%;
+}
+.information{
+	display: table;
+	width: 1200px;
+	height: 65px;
+	margin: 0px auto;
+	background-color: #F3F3F3;
+	border-radius: 30px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+.inf_txt{
+	display: block;
+	font-size: 17px;
+	font-family: arial;
+	line-height:1.7;
+	width: 1100px;
+	margin: 0px auto;
+}
+.menu{
+	display: table;
+	width: 1200px;
+	height: 300px;
+	margin: 0px auto;
+	background-color: #F3F3F3;
+	border-radius: 30px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+.ArheAge{
+	height: 220px;
+	width: 220px;
+	background-color: #FFFFFF;
+	margin-left: 10px;
+	border-radius: 30px;
+}
+.WoW{
+	height: 220px;
+	width: 220px;
+	background-color: #FFFFFF;
+	margin-left: 250px;
+	margin-top: -220px;
+	border-radius: 30px;
+}
+.BDO{
+	height: 220px;
+	width: 220px;
+	background-color: #FFFFFF;
+	margin-left: 490px;
+	margin-top: -220px;
+	border-radius: 30px;
+}
+.LA{
+	height: 220px;
+	width: 220px;
+	background-color: #FFFFFF;
+	margin-left: 730px;
+	margin-top: -220px;
+	border-radius: 30px;
+}
+.Astellia{
+	height: 220px;
+	width: 220px;
+	background-color: #FFFFFF;
+	margin-left: 970px;
+	margin-top: -220px;
+	border-radius: 30px;
+}
+.content_element_txt{
+	text-align: center;
+    margin-top: 19px;
+    font-size: 17px;
+    font-family: Arial;
+    color: #2B2B2B;
+}
+.banner2{
+	display: table;
+	width: 1900px;
+	height: 400px;
+	margin: 0px auto;
+	border-radius: 30px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+footer{
+	width: 100%;
+	height:100px;
+	margin: 0px auto;
+    margin-top: 20px;
+	background-color: #423C3C;
+}
+.footer_txt{
+	text-align: center;
+	color: #FFFFFF;
+}
