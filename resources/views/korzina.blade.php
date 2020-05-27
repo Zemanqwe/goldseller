@@ -9,9 +9,11 @@
 		</head>
 		<body>
 			<header>
+				<a href = "/">
 				<div class = "Logo">
 					<img src = "goldimg/Logo.png">
 				</div>
+			</a>
 				<div class = "Help">
 					<a href = "#" class = "Helptxt">Мы в соц. сетях!</a>   |   
 					<a href = "#" class = "Helptxt">Администрация</a>

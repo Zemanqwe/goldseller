@@ -9,9 +9,11 @@
 		</head>
 		<body>
 			<header>
+				<a href = "/">
 				<div class = "Logo">
 					<img src = "goldimg/Logo.png">
 				</div>
+			</a>
 				<div class = "Help">
 					<a href = "#" class = "Helptxt">Мы в соц. сетях!</a>   |   
 					<a href = "#" class = "Helptxt">Администрация</a>
@@ -28,7 +30,7 @@
 			<div class = "content">
 				<div class = "menu">
 					<div class = "ArheAge">
-						<a href = "ArcheAge/ArcheAge.html">
+						<a href = "/itemsAA">
 							<img src = "goldimg/ArcheAge.png">
 							<div class = "content_element_txt">
 								ArcheAge
@@ -36,7 +38,7 @@
 						</a>
 					</div>
 					<div class = "WoW">
-						<a href = "WoW/WoW.html">
+						<a href = "/itemsWoW">
 							<img src = "goldimg/WoW.png">
 							<div class = "content_element_txt">
 								World of Warcraft
@@ -44,7 +46,7 @@
 						</a>
 					</div>
 					<div class = "BDO">
-						<a href = "BDO/BDO.html">
+						<a href = "/itemsBDO">
 							<img src = "goldimg/BDO.png">
 							<div class = "content_element_txt">
 								Black Desert
@@ -52,7 +54,7 @@
 						</a>
 					</div>
 					<div class = "LA">
-						<a href = "LA/LA.html">
+						<a href = "/itemsLA">
 							<img src = "goldimg/LA.png">
 							<div class = "content_element_txt">
 								Lost Ark
@@ -60,7 +62,7 @@
 						</a>
 					</div>
 					<div class = "Astellia">
-						<a href = "Astellia/Astellia.html">
+						<a href = "/itemsAstellia">
 							<img src = "goldimg/Astellia.png">
 							<div class = "content_element_txt">
 								Astellia

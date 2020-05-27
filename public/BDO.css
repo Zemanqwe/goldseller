@@ -1,0 +1,215 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+	background-color: FFFFFF;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #EAEAEA;
+}
+.Logo{
+	width: 300px;
+}
+a{
+	text-decoration: none;
+}
+.Help{
+	float: right;
+	margin-top: -70px;
+	margin-right: 10px;
+}
+.Helptxt{
+	color: #000000;
+	font-family: Arial;
+	font-size: 17px;
+}
+.Banner{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.Banner_img{
+	width: 100%;
+}
+.bottom_menu{
+	height: 200px;
+	width: 1200px;
+	margin: 0px auto;
+}
+.gold{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #8890FF;
+	margin-left: 1px;
+}
+.bme_txt_main{
+	margin-top: 85px;
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+.bme_txt{
+	margin-top: 85px;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+.accaunts{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: black;
+	margin: 0px auto;
+	margin-top: -200px;
+}
+.items{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: black;
+	float: right;
+	margin-right: 1px;
+	margin-top: -200px;
+}
+.bottom_menu_element{
+	font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.information{
+	display: table;
+	width: 1200px;
+	height: 65px;
+	margin: 0px auto;
+	background-color: #F3F3F3;
+	border-radius: 30px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+.inf_txt{
+	display: block;
+	font-size: 17px;
+	font-family: arial;
+	line-height:1.7;
+	width: 1100px;
+	margin: 0px auto;
+}
+.content{
+	display: table;
+	width: 1200px;
+	height: 320px;
+	margin: 0px auto;
+	background-color: #F3F3F3;
+	border-radius: 30px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+.content_img{
+	position: absolute;
+}
+.content_image{
+	margin-top:-1px;
+}
+.content_txt{
+	font-size: 17px;
+    font-family: Arial black;
+	margin-left: 40px;
+	margin-top:-3px;
+}
+.form{
+	padding-top: 10px;
+	width: 870px;
+	height: 300px;
+	border-radius: 30px;
+	background-color: #EAEAEA;
+	margin-left: 320px;
+    margin-top: -20px;
+}
+.form_input{
+	width: 200px;
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	font-size: 17px;
+	font-family: sans-serif;
+	outline: none;
+	margin-left: 247px;
+}
+.form_label{
+	position: absolute;
+	color: black;
+	font-size: 17px;
+	font-family: sans-serif;
+    margin-left: 11px;
+}
+.stoimost{
+	position: absolute;
+	color: black;
+	font-size: 17px;
+	font-family: sans-serif;
+    margin-top: -21px;
+    margin-left: 471px;
+}
+.nickname,.server,.buy_gold,.buy{
+	position: relative;
+	margin: 10px;	
+	margin-bottom: 30px;
+}
+.form_button{
+	border: none;
+	border-radius: 10px;
+	font-size: 15px;
+	padding: 10px 20px;
+	color: white;
+	background-color: #8890FF;
+	cursor: pointer;
+	outline: none;
+}
+.form_input:focus{
+	border-bottom: 1px solid #8890FF;
+}
+.cc_txt{
+	display: table;
+	width: 1200px;
+	height: 20px;
+	margin: 0px auto;
+	border-radius: 30px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+.content2_txt{
+	font-size: 20px;
+    font-family: Arial;
+}
+.about_game{
+	display: table;
+	width: 1200px;
+	height: 120px;
+	margin: 0px auto;
+	background-color: #F3F3F3;
+	border-radius: 30px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+.about_game_txt{
+	display: block;
+	font-size: 17px;
+	font-family: arial;
+	line-height:1.7;
+	width: 1100px;
+	margin: 0px auto;
+}
+footer{
+	width: 100%;
+	height:100px;
+	margin: 0px auto;
+    margin-top: 20px;
+	background-color: #423C3C;
+}
+.footer_txt{
+	text-align: center;
+	color: #FFFFFF;
+}

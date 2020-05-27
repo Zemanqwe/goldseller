@@ -9,9 +9,11 @@
 	</head>
 	<body>
 		<header>
-			<div class = "Logo">
-				<img src = "mainimg/Logo.png">
-			</div>
+			<a href = "/">
+				<div class = "Logo">
+					<img src = "goldimg/Logo.png">
+				</div>
+			</a>
 			<div class = "Help">
 				<a href = "#" class = "Helptxt">Мы в соц. сетях!</a>   |   
 				<a href = "#" class = "Helptxt">Администрация</a>
@@ -24,23 +26,23 @@
 			<div class = "Menu">
 				<ul class = "menu">
 					<li class = "menu_element">
-						<a href = "ArcheAge/ArcheAge.html" class = "menu_element_name"><b>ArcheAge</b></a>
+						<a href = "/ArcheAge" class = "menu_element_name"><b>ArcheAge</b></a>
 					</li>
 					<hr>
 					<li class = "menu_element">
-						<a href = "WoW/WoW.html" class = "menu_element_name"><b>World of Warcraft</b></a>
+						<a href = "/WoW" class = "menu_element_name"><b>World of Warcraft</b></a>
 					</li>
 					<hr>
 					<li class = "menu_element">
-						<a href = "BDO/BDO.html" class = "menu_element_name"><b>Black desert</b></a>
+						<a href = "/BDO" class = "menu_element_name"><b>Black desert</b></a>
 					</li>
 					<hr>
 					<li class = "menu_element">
-						<a href = "LA/LA.html" class = "menu_element_name"><b>Lost ark</b></a>
+						<a href = "/LA" class = "menu_element_name"><b>Lost ark</b></a>
 					</li>
 					<hr>
 					<li class = "menu_element">
-						<a href = "Astellia/Astellia.html" class = "menu_element_name"><b>Astellia online</b></a>
+						<a href = "/Astellia" class = "menu_element_name"><b>Astellia online</b></a>
 					</li>
 				</ul>
 			</div>
@@ -95,7 +97,7 @@
 			</div>
 			<div class = "Razdel2">
 				<div class = "Razdel2_ArcheAge">
-					<a href = "ArcheAge/ArcheAge.html">
+					<a href = "/ArcheAge">
 						<img src = "mainimg/ArcheAge.png" class = "Razdel2_img">
 						<div class = "Razde2_element_txt">
 							Золото ArcheAge
@@ -103,7 +105,7 @@
 					</a>
 				</div>
 				<div class = "Razdel2_WoW">
-					<a href = "Wow/WoW.html">
+					<a href = "/WoW">
 						<img src = "mainimg/WoW.png" class = "Razdel2_img">
 						<div class = "Razde2_element_txt">
 							Золото WoW
@@ -111,7 +113,7 @@
 					</a>
 				</div>
 				<div class = "Razdel2_Astellia">
-					<a href = "Astellia/help.html">
+					<a href = "/helpAstellia">
 						<img src = "mainimg/Astellia.png" class = "Razdel2_img">
 						<div class = "Razde2_element_txt">
 							Услуги Astellia
