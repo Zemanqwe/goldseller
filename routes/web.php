@@ -13,86 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/accaunts', function () {
-    return view('accaunts');
-});
-
-Route::get('/gold', function () {
-    return view('gold');
-});
-
-Route::get('/help', function () {
-    return view('help');
-});
-
-Route::get('/items', function () {
-    return view('items');
-});
-
-Route::get('/korzina', function () {
-    return view('korzina');
-});
-
-Route::get('/ArcheAge', function () {
-    return view('ArcheAge');
-});
-
-Route::get('/accauntsAA', function () {
-    return view('accauntsAA');
-});
-
-Route::get('/itemsAA', function () {
-    return view('itemsAA');
-});
-
-Route::get('/WoW', function () {
-    return view('WoW');
-});
-
-Route::get('/accauntsWoW', function () {
-    return view('accauntsWoW');
-});
-
-Route::get('/helpWoW', function () {
-    return view('helpWoW');
-});
-
-Route::get('/accauntsAstellia', function () {
-    return view('accauntsAstellia');
-});
-
-Route::get('/helpAstellia', function () {
-    return view('helpAstellia');
-});
-
-Route::get('/Astellia', function () {
-    return view('Astellia');
-});
-
-Route::get('/BDO', function () {
-    return view('BDO');
-});
-
-Route::get('/accauntsBDO', function () {
-    return view('accauntsBDO');
-});
-
-Route::get('/itemsBDO', function () {
-    return view('itemsBDO');
-});
-
-Route::get('/LA', function () {
-    return view('LA');
-});
-
-Route::get('/itemsLA', function () {
-    return view('itemsLA');
-});
-
-Route::get('/accauntsLA', function () {
-    return view('accauntsLA');
-});
+Route::get('/', 'ApiController@index');
+Route::get('/accaunts', 'ApiController@accaunts');
+Route::get('/gold', 'ApiController@gold');
+Route::get('/help', 'ApiController@help');
+Route::get('/items', 'ApiController@items');
+Route::get('/korzina', 'ApiController@korzina');
+Route::get('/ArcheAge', 'ApiController@ArcheAge');
+Route::get('/accauntsAA', 'ApiController@accauntsAA');
+Route::get('/itemsAA', 'ApiController@itemsAA');
+Route::get('/WoW', 'ApiController@WoW');
+Route::get('/accauntsWoW', 'ApiController@accauntsWoW');
+Route::get('/helpWoW', 'ApiController@helpWoW');
+Route::get('/accauntsAstellia', 'ApiController@accauntsAstellia');
+Route::get('/helpAstellia', 'ApiController@helpAstellia');
+Route::get('/Astellia', 'ApiController@Astellia');
+Route::get('/BDO', 'ApiController@BDO');
+Route::get('/accauntsBDO', 'ApiController@accauntsBDO');
+Route::get('/itemsBDO', 'ApiController@itemsBDO');
+Route::get('/LA', 'ApiController@LA');
+Route::get('/itemsLA', 'ApiController@itemsLA');
+Route::get('/accauntsLA', 'ApiController@accauntsLA');
