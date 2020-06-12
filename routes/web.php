@@ -34,3 +34,4 @@ Route::get('/itemsBDO', 'ApiController@itemsBDO');
 Route::get('/LA', 'ApiController@LA');
 Route::get('/itemsLA', 'ApiController@itemsLA');
 Route::get('/accauntsLA', 'ApiController@accauntsLA');
+Route::get('/getBaskets', 'ApiController@getBaskets');

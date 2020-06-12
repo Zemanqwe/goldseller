@@ -90,4 +90,8 @@ class ApiController extends Controller
     {
         return view('WoW');
     }
+	public function getBaskets(Request $request)
+    {
+        return (new BasketController())->show();
+    }
 }
