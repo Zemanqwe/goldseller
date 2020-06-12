@@ -35,3 +35,5 @@ Route::get('/LA', 'ApiController@LA');
 Route::get('/itemsLA', 'ApiController@itemsLA');
 Route::get('/accauntsLA', 'ApiController@accauntsLA');
 Route::get('/getBaskets', 'ApiController@getBaskets');
+Route::get('/reg', 'ApiController@register');
+Route::get('/enter', 'ApiController@enter');

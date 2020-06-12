@@ -1,0 +1,62 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+	background-color: #EDEEF0;
+}
+form{
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 2px 2px 8px rgba(122,122,122,0.5);
+}
+.form_input{
+	margin: 55px;
+	text-align: center;
+}
+.form_input input{
+	padding: 10px;
+	font-size: 18px;
+	outline: none;
+	background: none;
+	border: solid 1px #404041;
+	border-radius: 7px;
+	color: #757575;
+}
+.form_input input:hover{
+	padding: 10px;
+	font-size: 18px;
+	outline: none;
+	background-color: #EDFFFF;
+	border: solid 1px #404041;
+	border-radius: 7px;
+	transition: 0.8s;
+}
+.form_input input[type = "submit"]{
+	padding: 10px;
+	font-size: 18px;
+	outline: none;
+	background-color: #EDFFFF;
+	border: solid 1px #404041;
+	border-radius: 7px;
+	color: #757575;
+}
+.form_input input[type = "submit"]:hover{
+	padding: 10px;
+	font-size: 18px;
+	outline: none;
+	background-color: #EDFFFF;
+	border: solid 1px #404041;
+	border-radius: 7px;
+	color: #757575;
+	padding: 10px 45px 10px 45px;
+	transition: 0.3s;
+}
+.form_input input[type = "text"]:focus, .form_input input[type = "password"]:focus{
+	border: solid 1px black;
+}

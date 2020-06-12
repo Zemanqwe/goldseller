@@ -94,4 +94,12 @@ class ApiController extends Controller
     {
         return (new BasketController())->show();
     }
+	public function register(Request $request)
+	{
+		return view('register');
+	}
+	public function enter(Request $request)
+	{
+		return view('enter');
+	}
 }
